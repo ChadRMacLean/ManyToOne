@@ -1,4 +1,5 @@
 # ManyToOne
+
 ## Description
 Python tool to convert many markup files into one master markup file, more specifically css and js. Written to work only on Windows platform at the moment.
 
@@ -10,8 +11,6 @@ Python tool to convert many markup files into one master markup file, more speci
 
 ## Notice
 Be aware that this is the initial build and documentation and reporting of errors are still in a work in progress. These are coming soon.
-
-***
 
 ## Changelog
 ***March 4 2020***

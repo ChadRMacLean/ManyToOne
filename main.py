@@ -3,11 +3,11 @@
 
 from datetime import datetime
 
-from library.modules import collector
-from library.modules import constants
+import collector
+import constants
 
 
-def startup():
+def main():
     for extension in constants.SUPPORTED_EXTENSIONS:
         collector_obj = collector.Collector(extension)
         collector_obj.create_work_folder()
@@ -19,7 +19,7 @@ def error_on_start():
 
 
 if __name__ == "__main__":
-    startup()
+    main()
 else:
     error_on_start()
 
